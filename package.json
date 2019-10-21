@@ -1,0 +1,26 @@
+{
+  "name": "usrlog",
+  "version": "1.0.0",
+  "description": "usr log system in NCNU etutor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "harp compile src dist && babel dist/js -d dist/js",
+    "serve": "harp server src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hms5232/NCNU-etutor-usrlog.git"
+  },
+  "author": "hms5232",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/hms5232/NCNU-etutor-usrlog/issues"
+  },
+  "homepage": "https://github.com/hms5232/NCNU-etutor-usrlog#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "ejs": "^2.7.1",
+    "harp": "^0.31.0"
+  }
+}
