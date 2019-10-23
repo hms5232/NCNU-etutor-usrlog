@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="hms5232">
+    <meta name="copyright" content="© 2019 by hms5232">
+    <title>暨大數位學伴計畫 - USR日誌系統 - </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/general.css" rel="stylesheet">
+    <link href="css/<%= current.source %>.css" rel="stylesheet">
+    <script src="env.js"></script>
+</head>
+<body>
+    <div id="nav-bar" class="container-fluid">
+        <nav class="navbar header navbar-expand-lg navbar-light">
+            <span style="font-weight: bold;font-size:18px;">暨大數位學伴計畫 - USR日誌系統</span>
+        </nav>
+        <% if (current.source != 'index') { -%>
+
+        <% } -%>
+        <footer>
+            <div class="row">
+                <div class="col-12 text-center">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <%- yield %>  <!--頁面內容-->
+
+    <footer class="container">
+        <hr />
+        <div class="row">
+            <div class="col-12 text-center">
+                <small>系統開發：hms5232</small><br />
+                <small>原始碼：<a href="https://github.com/hms5232/NCNU-etutor-usrlog">https://github.com/hms5232/NCNU-etutor-usrlog</a></small><br />
+                <small>開發者E-mail：<a href="mailto:hhming@mail.ncnu.edu.tw">hhming@mail.ncnu.edu.tw</a></small><br />
+                <b>&copy; 2019 by hms5232</b>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/user.js"></script>
+    <script defer src="js/<%= current.source %>.js"></script>  <!--有 defer 屬性的 script 會依據在網頁出現的順序載入-->
+</body>

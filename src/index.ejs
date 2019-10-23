@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+    <script>
+	    document.title += '登入';
+    </script>
+</head>
+<body>
+<!--    <div class="row">-->
+<!--        <div class="col-sm-6">-->
+<!--            <div class="card" style="height: 100%;">-->
+<!--                <div class="card-body">-->
+<!--                    <h3 class="card-title">重要公告</h3>-->
+<!--                    <p class="card-text">-->
+<!--                    <div class="alert alert-warning" role="alert">-->
+<!--                        <ul>-->
+<!--                            <li>上課請記得<strong>至 025 感應學生證簽到</strong></li>-->
+<!--                            <li>電腦教室請勿飲食（水除外）</li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="col-sm-6">-->
+<!--        <div class="card">-->
+<!--            <div class="card-body">-->
+<!--                <h3 class="card-title">登入系統</h3>-->
+<!--                <p class="card-text"></p>-->
+<!--                <div class="form-group row">-->
+<!--                    <label for="email" class="col-sm-2 col-form-label">帳號</label>-->
+<!--                    <div class="col-sm-10">-->
+<!--                        <input type="email" class="form-control" id="email" placeholder="Email">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="form-group row">-->
+<!--                    <label for="password" class="col-sm-2 col-form-label">密碼</label>-->
+<!--                    <div class="col-sm-10">-->
+<!--                        <input type="password" class="form-control" id="password" placeholder="Password">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="form-group row">-->
+<!--                    <div class="offset-sm-2 col-sm-10">-->
+<!--                        <a href="javascript:;" class="btn btn-success" id="btn-login">登入</a>-->
+<!--                        <a href="./resend.html" class="btn btn-info" id="btn-forgetPasswd">忘記密碼</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="row">
+        <div class="col-2 offset-5">
+            <form>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <input type="text" id="username" class="form-control" placeholder="帳號" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fa fa-key" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <input type="password" id="password" class="form-control" placeholder="密碼" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-success btn-block" id="btn-login">登入</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256/src/sha256.js"></script>
+</body>

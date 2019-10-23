@@ -1,0 +1,155 @@
+#nav-bar {
+	margin-top: 40px;
+	padding-bottom: 3rem;
+}
+
+.navbar.header {
+	padding: 0px;
+	border-bottom: .05rem solid #e5e5e5;
+}
+
+.title {
+	margin: 15px 0px;
+	letter-spacing: 5px;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+.hide {
+	display: none;
+}
+
+.nav-item {
+	display: inline;
+}
+
+.nav-item.hide {
+	display: none;
+}
+
+.nav-item.list-group-item-success i.done {
+	display: initial;
+}
+
+.nav-item.list-group-item-success i.yet {
+	display: none;
+}
+
+.nav-item.active .icon-arrow {
+	position: absolute;
+	top: 17px;
+	display: initial;
+	-moz-animation: bounceX 2s infinite;
+	-webkit-animation: bounceX 2s infinite;
+	animation: bounceX 2s infinite;
+}
+
+.nav-item.disabled {
+	color: #ccc;
+}
+
+.nav-item.disabled:hover {
+	color: #ccc;
+	background-color: #fff;
+}
+
+.nav-item.disabled:focus {
+	color: #ccc;
+	background-color: #fff;
+}
+
+.tip-personal-info-first {
+	display: none;
+}
+
+.tip-deadline {
+	display: none;
+}
+
+.show-personal-info-first>.tip-personal-info-first {
+	display: block;
+}
+
+.show-deadline>.tip-deadline {
+	display: block;
+}
+
+.tip-grade-first {
+	display: none;
+}
+
+.tip-placement-deadline {
+	display: none;
+}
+
+.show-grade-first>.tip-grade-first {
+	display: block;
+}
+
+.show-placement-deadline>.tip-placement-deadline {
+	display: block;
+}
+
+#logo {
+	color: inherit;
+	position: absolute;
+	text-transform: uppercase;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#logo:hover {
+	text-decoration: none;
+	animation-name: bounce;
+	-moz-animation-name: bounce;
+}
+
+#arrow-top{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	width: 50px;
+	height: 50px;
+	display: block;
+	text-decoration: none;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	display: none;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#arrow-top i{
+	color: #fff;
+	margin: 0;
+	position: relative;
+	left: 16px;
+	top: 13px;
+	font-size: 19px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#arrow-top:hover{
+	background: rgba(0, 0, 0, 0.9);
+}
+#arrow-top:hover i{
+	color: #fff;
+	top: 5px;
+}
+
