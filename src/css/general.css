@@ -13,8 +13,10 @@
 	letter-spacing: 5px;
 }
 
-footer {
+#footer {
+	/* 上下邊界 */
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .hide {
