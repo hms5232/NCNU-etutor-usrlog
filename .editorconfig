@@ -1,0 +1,13 @@
+# Editor configuration
+# see https://editorconfig.org
+# see also https://medium.com/@aar0nTw/editorconfig-%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97-how-to-editor-%E7%B7%A8%E8%BC%AF%E8%80%85-8-5ad3dd6d1e92
+
+root = true
+
+[*]
+charset = utf-8
+indent_style = tab
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+curly_bracket_next_line = false
